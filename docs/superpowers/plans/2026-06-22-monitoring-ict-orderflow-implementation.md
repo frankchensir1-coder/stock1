@@ -607,4 +607,3 @@ git push origin main
 ```
 
 Expected: local `HEAD` equals `refs/heads/main` from `git ls-remote origin`; working tree is clean.
-
