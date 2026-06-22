@@ -1,0 +1,31 @@
+# Local configuration and credentials
+.env
+.env.*
+local.settings.json
+*.token
+*.secret
+*.pem
+*.key
+
+# Azure and local runtime state
+.azure/
+.func/
+bin/
+obj/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Test and generated output
+.pytest_cache/
+coverage/
+reports/
+*.csv
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
