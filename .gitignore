@@ -25,6 +25,7 @@ reports/
 *.csv
 
 # Editors and operating systems
+.worktrees/
 .vscode/
 .idea/
 .DS_Store
